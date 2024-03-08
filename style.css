@@ -1,4 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* .crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+header{
+    height: 100vh;
+    background-image: url("/asset/img/background.jpg");
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    background-size: 134vw 1323px;
+    background-position-x: -510px;
+    background-position-y: 80px;
+}
+
+h1{
+    font-family: "Crimson Text", serif;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 55px;
+    padding: auto;
+    margin-left: 400px;
+    text-transform: uppercase;
+
+}
+
+header>img{
+    border-radius: 5px;
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 470px;
+}
+
+nav{
+    margin-top: -70px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header>nav>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>nav>div>button{
+    background-color: #8D0000;
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+header>nav>div>button.btn2{
+background-color: black;
+color: white;
+}
+
+header>nav>div>button>img{
+    max-width: 40px;
+}
+
+header>p{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-size: 68px;
+    margin-top: 481px;
+    margin-left: 210px;
+}
+/* 
+/* main{
+    height: 50vh;
+} */ 
+
+footer{
+    height: 80px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>a>img{
+    height: 80px;
+    width:  80px;
+}
+
+footer div p{
+    display: inline-block;
+}
+
+footer div p.copyright{
+    display: block;
+}
+
+
